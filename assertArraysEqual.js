@@ -11,7 +11,7 @@ let eqArrays = function(array1, array2) {
   return true;
 };
 
-let assertArrayEqual = function(array1, array2) {
+let assertArraysEqual = function(array1, array2) {
   if (eqArrays(array1, array2)) {
     console.log(`✅ the arrays are equal`);
   } else {
@@ -19,4 +19,4 @@ let assertArrayEqual = function(array1, array2) {
   }
 };
 
-console.log(assertArrayEqual([1, 2], [1, 3]));
+console.log(assertArraysEqual([1, 2], [1, 3]));
