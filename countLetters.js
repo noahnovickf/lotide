@@ -18,5 +18,4 @@ let countLetters = function(str) {
   }
   return results;
 };
-
-console.log(countLetters("abcabcbbbb"));
+assertEqual(countLetters("abcabcbbbb").a, 2);
