@@ -36,7 +36,7 @@ const eqObjects = function(object1, object2) {
 
 const assertObjectsEqual = function(obj1, obj2) {
   const inspect = require("util").inspect;
-  if (eqObjects(obj1, obj2) === true) {
+  if (eqObjects(obj1, obj2)) {
     console.log(`✅ ${inspect(obj1)} is equal to ${inspect(obj2)}`);
   } else {
     console.log(`🔴 ${inspect(obj1)} is not equal to ${inspect(obj2)}`);
@@ -46,4 +46,4 @@ const assertObjectsEqual = function(obj1, obj2) {
 const cd = { c: "1", d: ["2", 3] };
 const dc = { d: ["2", 3], c: "1" };
 const cd2 = { c: "1", d: ["2", 3, 4] };
-assertObjectsEqual(cd2, cd);
+assertObjectsEqual(dc, cd);
