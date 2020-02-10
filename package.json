@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@noahnovick/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lotide library of functions for LHL: Lodash adaptation",
   "main": "assertArraysEqual.js",
   "scripts": {
     "test": "mocha"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/noahnovickf/lotide.git"
   },
-  "author": "",
+  "author": "Noah Novick",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/noahnovickf/lotide/issues"
